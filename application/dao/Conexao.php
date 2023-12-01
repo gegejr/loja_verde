@@ -4,7 +4,7 @@ class Conexao{
     private $dbName = "loja";
     private $usuario = "root";
     private $senha = "sucesso";
-    private $host = "localhost";
+    private $host = "127.0.0.1:3306";
     // carrega a conexão realizada com banco
     private $conn;
     public function __construct(){
